@@ -1,0 +1,133 @@
+%{
+#include "ast.hpp"
+#include <bits/stdc++.h>
+using namespace std;
+
+void yyerror(const char* s);
+extern int yylex();
+extern FILE* yyin;
+
+ProgramAST* g_ast = NULL;
+%}
+
+%union {
+    int num;
+    char* var;
+
+    struct GateNode* gate;
+    struct Qubit* qubit;
+    struct QregDecl* qreg;
+    struct CregDecl* creg;
+}
+
+%token HADAMARD QUBIT CNOT X Z MEASURE QREGISTER CREGISTER
+%token LBRACKET RBRACKET SEMICOLON COMMA ARROW EQUALS
+%token OPENQASM_TOK INCLUDE_TOK REAL_NUM
+
+%token <num> NUM
+%token <var> VAR STRING
+
+%type <gate> gate_statement
+%type <qubit> qubit
+%type <qreg> qreg_declaration
+%type <creg> creg_declaration
+
+%start program
+
+%%
+
+program
+    : 
+    {
+        if (!g_ast) g_ast = create_program_ast();
+    }
+    statement_list
+    {
+    }
+    ;
+
+statement_list
+    : statement
+    | statement_list statement
+    ;
+
+statement
+    : 
+    | qreg_declaration
+    {
+        if ($1) add_qreg_to_program(g_ast, $1);
+    }
+    | creg_declaration
+    {
+        if ($1) add_creg_to_program(g_ast, $1);
+    }
+    | gate_statement
+    {
+        if ($1) add_gate_to_program(g_ast, $1);
+    }
+    ;
+
+qreg_declaration
+    : QREGISTER VAR LBRACKET NUM RBRACKET SEMICOLON
+    {
+        $$ = create_qreg_decl(new std::string($2), $4);
+        free($2);
+    }
+    ;
+
+creg_declaration
+    : CREGISTER VAR LBRACKET NUM RBRACKET SEMICOLON
+    {
+        $$ = create_creg_decl(new std::string($2), $4);
+        free($2);
+    }
+    ;
+
+gate_statement
+    : HADAMARD qubit SEMICOLON
+    {
+        $$ = create_gate_node(GateType::HADAMARD, $2, nullptr);
+    }
+    | X qubit SEMICOLON
+    {
+        $$ = create_gate_node(GateType::PAULI_X, $2, nullptr);
+    }
+    | Z qubit SEMICOLON
+    {
+        $$ = create_gate_node(GateType::PAULI_Z, $2, nullptr);
+    }
+    | CNOT qubit COMMA qubit SEMICOLON
+    {
+        $$ = create_gate_node(GateType::CX, $4, $2);
+    }
+    | MEASURE qubit ARROW VAR LBRACKET NUM RBRACKET SEMICOLON
+    {
+        std::string measure_target = std::string($4) + "[" + std::to_string($6) + "]";
+        $$ = create_measure_node($2, new std::string(measure_target));
+        free($4);
+    }
+    | MEASURE qubit ARROW VAR SEMICOLON
+    {
+        $$ = create_measure_node($2, new std::string($4));
+        free($4);
+    }
+    ;
+
+qubit
+    : VAR LBRACKET NUM RBRACKET
+    {
+        $$ = create_qubit(new std::string($1), $3);
+        free($1);
+    }
+    ;
+
+
+%%
+
+extern int line_cnt;
+extern char* yytext;
+
+void yyerror(const char* s)
+{
+    cout << "ERROR at line " << line_cnt << " near '" << yytext << "': " << s << endl;
+}

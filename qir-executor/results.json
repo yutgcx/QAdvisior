@@ -1,0 +1,11 @@
+{
+  "file": "bell.ll",
+  "shots": 4096,
+  "entrypoint": "main",
+  "seed": null,
+  "counts": {
+    "00": 2048,
+    "11": 2048
+  },
+  "total_shots": 4096
+}

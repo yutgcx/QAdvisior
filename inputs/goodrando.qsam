@@ -1,0 +1,13 @@
+
+qreg q[2];
+creg c[2];
+
+
+z q[1];
+x q[1];
+h q[0];
+
+
+measure q[0] -> c[0];
+measure q[1] -> c[1];
+

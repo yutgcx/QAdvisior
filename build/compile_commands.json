@@ -1,0 +1,152 @@
+[
+{
+  "directory": "/home/linux/Projects/Compil/build",
+  "command": "/usr/bin/clang++ -I/home/linux/Projects/Compil/lexer -I/home/linux/Projects/Compil/build/lexer -g -std=gnu++17   -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/qadvisor_phase1.dir/lexer/ast.cpp.o -c /home/linux/Projects/Compil/lexer/ast.cpp",
+  "file": "/home/linux/Projects/Compil/lexer/ast.cpp",
+  "output": "/home/linux/Projects/Compil/build/CMakeFiles/qadvisor_phase1.dir/lexer/ast.cpp.o"
+},
+{
+  "directory": "/home/linux/Projects/Compil/build",
+  "command": "/usr/bin/clang++ -I/home/linux/Projects/Compil/lexer -I/home/linux/Projects/Compil/build/lexer -g -std=gnu++17   -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/qadvisor_phase1.dir/lexer/semantic.cpp.o -c /home/linux/Projects/Compil/lexer/semantic.cpp",
+  "file": "/home/linux/Projects/Compil/lexer/semantic.cpp",
+  "output": "/home/linux/Projects/Compil/build/CMakeFiles/qadvisor_phase1.dir/lexer/semantic.cpp.o"
+},
+{
+  "directory": "/home/linux/Projects/Compil/build",
+  "command": "/usr/bin/clang++ -I/home/linux/Projects/Compil/lexer -I/home/linux/Projects/Compil/build/lexer -g -std=gnu++17   -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/qadvisor_phase1.dir/lexer/qasm.tab.cpp.o -c /home/linux/Projects/Compil/build/lexer/qasm.tab.cpp",
+  "file": "/home/linux/Projects/Compil/build/lexer/qasm.tab.cpp",
+  "output": "/home/linux/Projects/Compil/build/CMakeFiles/qadvisor_phase1.dir/lexer/qasm.tab.cpp.o"
+},
+{
+  "directory": "/home/linux/Projects/Compil/build",
+  "command": "/usr/bin/clang++ -I/home/linux/Projects/Compil/lexer -I/home/linux/Projects/Compil/build/lexer -g -std=gnu++17   -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/qadvisor_phase1.dir/lexer/lex.yy.cc.o -c /home/linux/Projects/Compil/build/lexer/lex.yy.cc",
+  "file": "/home/linux/Projects/Compil/build/lexer/lex.yy.cc",
+  "output": "/home/linux/Projects/Compil/build/CMakeFiles/qadvisor_phase1.dir/lexer/lex.yy.cc.o"
+},
+{
+  "directory": "/home/linux/Projects/Compil/build",
+  "command": "/usr/bin/clang++ -I/home/linux/Projects/Compil/lexer -I/home/linux/Projects/Compil/build/lexer -g -std=gnu++17   -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/qadvisor_phase1.dir/lexer/main.cpp.o -c /home/linux/Projects/Compil/lexer/main.cpp",
+  "file": "/home/linux/Projects/Compil/lexer/main.cpp",
+  "output": "/home/linux/Projects/Compil/build/CMakeFiles/qadvisor_phase1.dir/lexer/main.cpp.o"
+},
+{
+  "directory": "/home/linux/Projects/Compil/build",
+  "command": "/usr/bin/clang++ -I/home/linux/Projects/Compil/lexer -I/home/linux/Projects/Compil/dependecy -I/home/linux/Projects/Compil/build/lexer -g -std=gnu++17   -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/qadvisor_phase2.dir/dependecy/dependency.cpp.o -c /home/linux/Projects/Compil/dependecy/dependency.cpp",
+  "file": "/home/linux/Projects/Compil/dependecy/dependency.cpp",
+  "output": "/home/linux/Projects/Compil/build/CMakeFiles/qadvisor_phase2.dir/dependecy/dependency.cpp.o"
+},
+{
+  "directory": "/home/linux/Projects/Compil/build",
+  "command": "/usr/bin/clang++ -I/home/linux/Projects/Compil/lexer -I/home/linux/Projects/Compil/dependecy -I/home/linux/Projects/Compil/build/lexer -g -std=gnu++17   -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/qadvisor_phase2.dir/dependecy/scheduler.cpp.o -c /home/linux/Projects/Compil/dependecy/scheduler.cpp",
+  "file": "/home/linux/Projects/Compil/dependecy/scheduler.cpp",
+  "output": "/home/linux/Projects/Compil/build/CMakeFiles/qadvisor_phase2.dir/dependecy/scheduler.cpp.o"
+},
+{
+  "directory": "/home/linux/Projects/Compil/build",
+  "command": "/usr/bin/clang++ -I/home/linux/Projects/Compil/lexer -I/home/linux/Projects/Compil/dependecy -I/home/linux/Projects/Compil/build/lexer -g -std=gnu++17   -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/qadvisor_phase2.dir/dependecy/analysis.cpp.o -c /home/linux/Projects/Compil/dependecy/analysis.cpp",
+  "file": "/home/linux/Projects/Compil/dependecy/analysis.cpp",
+  "output": "/home/linux/Projects/Compil/build/CMakeFiles/qadvisor_phase2.dir/dependecy/analysis.cpp.o"
+},
+{
+  "directory": "/home/linux/Projects/Compil/build",
+  "command": "/usr/bin/clang++ -I/home/linux/Projects/Compil/lexer -I/home/linux/Projects/Compil/dependecy -I/home/linux/Projects/Compil/build/lexer -g -std=gnu++17   -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/qadvisor_phase2.dir/dependecy/main.cpp.o -c /home/linux/Projects/Compil/dependecy/main.cpp",
+  "file": "/home/linux/Projects/Compil/dependecy/main.cpp",
+  "output": "/home/linux/Projects/Compil/build/CMakeFiles/qadvisor_phase2.dir/dependecy/main.cpp.o"
+},
+{
+  "directory": "/home/linux/Projects/Compil/build",
+  "command": "/usr/bin/clang++ -I/home/linux/Projects/Compil/lexer -I/home/linux/Projects/Compil/dependecy -I/home/linux/Projects/Compil/build/lexer -g -std=gnu++17   -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/qadvisor_phase2.dir/lexer/ast.cpp.o -c /home/linux/Projects/Compil/lexer/ast.cpp",
+  "file": "/home/linux/Projects/Compil/lexer/ast.cpp",
+  "output": "/home/linux/Projects/Compil/build/CMakeFiles/qadvisor_phase2.dir/lexer/ast.cpp.o"
+},
+{
+  "directory": "/home/linux/Projects/Compil/build",
+  "command": "/usr/bin/clang++ -I/home/linux/Projects/Compil/lexer -I/home/linux/Projects/Compil/dependecy -I/home/linux/Projects/Compil/build/lexer -g -std=gnu++17   -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/qadvisor_phase2.dir/lexer/semantic.cpp.o -c /home/linux/Projects/Compil/lexer/semantic.cpp",
+  "file": "/home/linux/Projects/Compil/lexer/semantic.cpp",
+  "output": "/home/linux/Projects/Compil/build/CMakeFiles/qadvisor_phase2.dir/lexer/semantic.cpp.o"
+},
+{
+  "directory": "/home/linux/Projects/Compil/build",
+  "command": "/usr/bin/clang++ -I/home/linux/Projects/Compil/lexer -I/home/linux/Projects/Compil/dependecy -I/home/linux/Projects/Compil/build/lexer -g -std=gnu++17   -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/qadvisor_phase2.dir/lexer/qasm.tab.cpp.o -c /home/linux/Projects/Compil/build/lexer/qasm.tab.cpp",
+  "file": "/home/linux/Projects/Compil/build/lexer/qasm.tab.cpp",
+  "output": "/home/linux/Projects/Compil/build/CMakeFiles/qadvisor_phase2.dir/lexer/qasm.tab.cpp.o"
+},
+{
+  "directory": "/home/linux/Projects/Compil/build",
+  "command": "/usr/bin/clang++ -I/home/linux/Projects/Compil/lexer -I/home/linux/Projects/Compil/dependecy -I/home/linux/Projects/Compil/build/lexer -g -std=gnu++17   -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/qadvisor_phase2.dir/lexer/lex.yy.cc.o -c /home/linux/Projects/Compil/build/lexer/lex.yy.cc",
+  "file": "/home/linux/Projects/Compil/build/lexer/lex.yy.cc",
+  "output": "/home/linux/Projects/Compil/build/CMakeFiles/qadvisor_phase2.dir/lexer/lex.yy.cc.o"
+},
+{
+  "directory": "/home/linux/Projects/Compil/build",
+  "command": "/usr/bin/clang++ -I/home/linux/Projects/Compil/lexer -I/home/linux/Projects/Compil/dependecy -I/home/linux/Projects/Compil/qir -I/home/linux/Projects/Compil/build/lexer -g -std=gnu++17   -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/qadvisor_phase3.dir/qir/qir_generator.cpp.o -c /home/linux/Projects/Compil/qir/qir_generator.cpp",
+  "file": "/home/linux/Projects/Compil/qir/qir_generator.cpp",
+  "output": "/home/linux/Projects/Compil/build/CMakeFiles/qadvisor_phase3.dir/qir/qir_generator.cpp.o"
+},
+{
+  "directory": "/home/linux/Projects/Compil/build",
+  "command": "/usr/bin/clang++ -I/home/linux/Projects/Compil/lexer -I/home/linux/Projects/Compil/dependecy -I/home/linux/Projects/Compil/qir -I/home/linux/Projects/Compil/build/lexer -g -std=gnu++17   -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/qadvisor_phase3.dir/qir/qubit_manager.cpp.o -c /home/linux/Projects/Compil/qir/qubit_manager.cpp",
+  "file": "/home/linux/Projects/Compil/qir/qubit_manager.cpp",
+  "output": "/home/linux/Projects/Compil/build/CMakeFiles/qadvisor_phase3.dir/qir/qubit_manager.cpp.o"
+},
+{
+  "directory": "/home/linux/Projects/Compil/build",
+  "command": "/usr/bin/clang++ -I/home/linux/Projects/Compil/lexer -I/home/linux/Projects/Compil/dependecy -I/home/linux/Projects/Compil/qir -I/home/linux/Projects/Compil/build/lexer -g -std=gnu++17   -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/qadvisor_phase3.dir/qir/type_manager.cpp.o -c /home/linux/Projects/Compil/qir/type_manager.cpp",
+  "file": "/home/linux/Projects/Compil/qir/type_manager.cpp",
+  "output": "/home/linux/Projects/Compil/build/CMakeFiles/qadvisor_phase3.dir/qir/type_manager.cpp.o"
+},
+{
+  "directory": "/home/linux/Projects/Compil/build",
+  "command": "/usr/bin/clang++ -I/home/linux/Projects/Compil/lexer -I/home/linux/Projects/Compil/dependecy -I/home/linux/Projects/Compil/qir -I/home/linux/Projects/Compil/build/lexer -g -std=gnu++17   -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/qadvisor_phase3.dir/qir/metadata_builder.cpp.o -c /home/linux/Projects/Compil/qir/metadata_builder.cpp",
+  "file": "/home/linux/Projects/Compil/qir/metadata_builder.cpp",
+  "output": "/home/linux/Projects/Compil/build/CMakeFiles/qadvisor_phase3.dir/qir/metadata_builder.cpp.o"
+},
+{
+  "directory": "/home/linux/Projects/Compil/build",
+  "command": "/usr/bin/clang++ -I/home/linux/Projects/Compil/lexer -I/home/linux/Projects/Compil/dependecy -I/home/linux/Projects/Compil/qir -I/home/linux/Projects/Compil/build/lexer -g -std=gnu++17   -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/qadvisor_phase3.dir/qir/main.cpp.o -c /home/linux/Projects/Compil/qir/main.cpp",
+  "file": "/home/linux/Projects/Compil/qir/main.cpp",
+  "output": "/home/linux/Projects/Compil/build/CMakeFiles/qadvisor_phase3.dir/qir/main.cpp.o"
+},
+{
+  "directory": "/home/linux/Projects/Compil/build",
+  "command": "/usr/bin/clang++ -I/home/linux/Projects/Compil/lexer -I/home/linux/Projects/Compil/dependecy -I/home/linux/Projects/Compil/qir -I/home/linux/Projects/Compil/build/lexer -g -std=gnu++17   -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/qadvisor_phase3.dir/dependecy/dependency.cpp.o -c /home/linux/Projects/Compil/dependecy/dependency.cpp",
+  "file": "/home/linux/Projects/Compil/dependecy/dependency.cpp",
+  "output": "/home/linux/Projects/Compil/build/CMakeFiles/qadvisor_phase3.dir/dependecy/dependency.cpp.o"
+},
+{
+  "directory": "/home/linux/Projects/Compil/build",
+  "command": "/usr/bin/clang++ -I/home/linux/Projects/Compil/lexer -I/home/linux/Projects/Compil/dependecy -I/home/linux/Projects/Compil/qir -I/home/linux/Projects/Compil/build/lexer -g -std=gnu++17   -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/qadvisor_phase3.dir/dependecy/scheduler.cpp.o -c /home/linux/Projects/Compil/dependecy/scheduler.cpp",
+  "file": "/home/linux/Projects/Compil/dependecy/scheduler.cpp",
+  "output": "/home/linux/Projects/Compil/build/CMakeFiles/qadvisor_phase3.dir/dependecy/scheduler.cpp.o"
+},
+{
+  "directory": "/home/linux/Projects/Compil/build",
+  "command": "/usr/bin/clang++ -I/home/linux/Projects/Compil/lexer -I/home/linux/Projects/Compil/dependecy -I/home/linux/Projects/Compil/qir -I/home/linux/Projects/Compil/build/lexer -g -std=gnu++17   -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/qadvisor_phase3.dir/dependecy/analysis.cpp.o -c /home/linux/Projects/Compil/dependecy/analysis.cpp",
+  "file": "/home/linux/Projects/Compil/dependecy/analysis.cpp",
+  "output": "/home/linux/Projects/Compil/build/CMakeFiles/qadvisor_phase3.dir/dependecy/analysis.cpp.o"
+},
+{
+  "directory": "/home/linux/Projects/Compil/build",
+  "command": "/usr/bin/clang++ -I/home/linux/Projects/Compil/lexer -I/home/linux/Projects/Compil/dependecy -I/home/linux/Projects/Compil/qir -I/home/linux/Projects/Compil/build/lexer -g -std=gnu++17   -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/qadvisor_phase3.dir/lexer/ast.cpp.o -c /home/linux/Projects/Compil/lexer/ast.cpp",
+  "file": "/home/linux/Projects/Compil/lexer/ast.cpp",
+  "output": "/home/linux/Projects/Compil/build/CMakeFiles/qadvisor_phase3.dir/lexer/ast.cpp.o"
+},
+{
+  "directory": "/home/linux/Projects/Compil/build",
+  "command": "/usr/bin/clang++ -I/home/linux/Projects/Compil/lexer -I/home/linux/Projects/Compil/dependecy -I/home/linux/Projects/Compil/qir -I/home/linux/Projects/Compil/build/lexer -g -std=gnu++17   -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/qadvisor_phase3.dir/lexer/semantic.cpp.o -c /home/linux/Projects/Compil/lexer/semantic.cpp",
+  "file": "/home/linux/Projects/Compil/lexer/semantic.cpp",
+  "output": "/home/linux/Projects/Compil/build/CMakeFiles/qadvisor_phase3.dir/lexer/semantic.cpp.o"
+},
+{
+  "directory": "/home/linux/Projects/Compil/build",
+  "command": "/usr/bin/clang++ -I/home/linux/Projects/Compil/lexer -I/home/linux/Projects/Compil/dependecy -I/home/linux/Projects/Compil/qir -I/home/linux/Projects/Compil/build/lexer -g -std=gnu++17   -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/qadvisor_phase3.dir/lexer/qasm.tab.cpp.o -c /home/linux/Projects/Compil/build/lexer/qasm.tab.cpp",
+  "file": "/home/linux/Projects/Compil/build/lexer/qasm.tab.cpp",
+  "output": "/home/linux/Projects/Compil/build/CMakeFiles/qadvisor_phase3.dir/lexer/qasm.tab.cpp.o"
+},
+{
+  "directory": "/home/linux/Projects/Compil/build",
+  "command": "/usr/bin/clang++ -I/home/linux/Projects/Compil/lexer -I/home/linux/Projects/Compil/dependecy -I/home/linux/Projects/Compil/qir -I/home/linux/Projects/Compil/build/lexer -g -std=gnu++17   -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/qadvisor_phase3.dir/lexer/lex.yy.cc.o -c /home/linux/Projects/Compil/build/lexer/lex.yy.cc",
+  "file": "/home/linux/Projects/Compil/build/lexer/lex.yy.cc",
+  "output": "/home/linux/Projects/Compil/build/CMakeFiles/qadvisor_phase3.dir/lexer/lex.yy.cc.o"
+}
+]
